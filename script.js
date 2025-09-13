@@ -4,7 +4,7 @@ checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
     // الوضع الداكن
     document.body.style.background = "black";
-    document.body.style.color = "white"; // نص أبيض ليكون واضح
+    document.body.style.color = rgb(5, 5, 82); // نص أبيض ليكون واضح
   } else {
     // الوضع الفاتح
     document.body.style.background = "#080B36"; // اللون يحتاج علامات اقتباس
@@ -59,5 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
 
 
