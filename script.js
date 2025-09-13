@@ -2,11 +2,13 @@ const checkbox = document.getElementById("toggle");
 
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
-    document.body.style.background = "black"; // الوضع الداكن
-    document.body.style.color = "black"; // نخلي النص واضح
+    // الوضع الداكن
+    document.body.style.background = "black";
+    document.body.style.color = "white"; // نص أبيض ليكون واضح
   } else {
-    document.body.style.background = #080B36; // الوضع الفاتح
-    document.body.style.color = "white";
+    // الوضع الفاتح
+    document.body.style.background = "#080B36"; // اللون يحتاج علامات اقتباس
+    document.body.style.color = "white"; // أو يمكنك استخدام أسود إذا كان اللون الفاتح مناسب
   }
 });
 
@@ -57,4 +59,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
 
