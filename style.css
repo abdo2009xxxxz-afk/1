@@ -1,5 +1,5 @@
 body{
-  background: blue !important;
+  background-color: blue;
   max-width: 100%;
   margin: 0%;
 }
@@ -81,6 +81,7 @@ body{
   color: blue;
 
 }
+
 
 
 
