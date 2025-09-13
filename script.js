@@ -5,8 +5,8 @@ checkbox.addEventListener("change", () => {
     document.body.style.background = "black"; // الوضع الداكن
     document.body.style.color = "white"; // نخلي النص واضح
   } else {
-    document.body.style.background = "white"; // الوضع الفاتح
-    document.body.style.color = "black";
+    document.body.style.background = #080B36; // الوضع الفاتح
+    document.body.style.color = "white";
   }
 });
 
@@ -55,4 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
       container.appendChild(div);
     });
   }
+
 });
