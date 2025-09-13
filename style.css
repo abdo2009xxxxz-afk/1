@@ -1,5 +1,5 @@
 body{
-  background-color: blue;
+  background-color: rgb(5, 5, 82);
   max-width: 100%;
   margin: 0%;
 }
@@ -78,9 +78,10 @@ body{
 .count {
   margin-top: 10px;
   font-weight: bold;
-  color: blue;
+  color: white;
 
 }
+
 
 
 
