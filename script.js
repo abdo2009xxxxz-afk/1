@@ -3,7 +3,7 @@ const checkbox = document.getElementById("toggle");
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
     document.body.style.background = "black"; // الوضع الداكن
-    document.body.style.color = "white"; // نخلي النص واضح
+    document.body.style.color = "black"; // نخلي النص واضح
   } else {
     document.body.style.background = #080B36; // الوضع الفاتح
     document.body.style.color = "white";
@@ -57,3 +57,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
