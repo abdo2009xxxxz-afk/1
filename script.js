@@ -2,13 +2,13 @@ const checkbox = document.getElementById("toggle");
 
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
-    // الوضع الداكن
-    document.body.style.background = "black";
-    document.body.style.color = rgb(5, 5, 82); // نص أبيض ليكون واضح
+    document.body.style.background = "black"; // الوضع الداكن
+    document.body.style.color = "white"; // نخلي النص واضح
+    document.type.style.color = "rgb(5, 9, 206)"
   } else {
-    // الوضع الفاتح
-    document.body.style.background = "#080B36"; // اللون يحتاج علامات اقتباس
-    document.body.style.color = "white"; // أو يمكنك استخدام أسود إذا كان اللون الفاتح مناسب
+    document.body.style.background = "rgb(5, 9, 206)"; // الوضع الفاتح
+    document.body.style.color = "black";
+    
   }
 });
 
@@ -51,14 +51,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const div = document.createElement("div");
       div.classList.add("dua");
       div.innerHTML = `
-        <div>${dua.text}</div>
+        <div style="color: black;">${dua.text}</div>
         <div class="count">عدد المرات: ${dua.count}</div>
       `;
       container.appendChild(div);
     });
   }
-
 });
-
-
 
